@@ -9,11 +9,18 @@ GAME RULES:
 
 */
 
-var score1 = 0;
-var score2 = 0;
+//var score1 = 0;
+//var score2 = 0;
 
-var scores = [0,0]; //sets both scores to start at 0
+var scores, roundScores, activePlayer, dice;
 
+scores = [0,0]; //sets both scores to start at 0
+roundScore = 0;
+activePlayer = 0;
+dice = Math.floor(Math.random() * 6) + 1;  //Math.floor removes the decimal, random generates random numbers
+console.log(dice);
+
+document.querySelector('#score-0').textContent = dice;
 
 
 
