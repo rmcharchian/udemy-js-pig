@@ -8,3 +8,12 @@ GAME RULES:
 - The first player to reach 100 points on GLOBAL score wins the game
 
 */
+
+var score1 = 0;
+var score2 = 0;
+
+var scores = [0,0]; //sets both scores to start at 0
+
+
+
+
